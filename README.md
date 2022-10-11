@@ -36,7 +36,8 @@
 
 1. User use API localhost:5000/product/:product_id using method Put.
 2. User fill :product_id parameter with product_id
-3. Product updated.
+3. User fill raw body JSON Product Name and Premium to edit.
+4. Product edited.
 
 * Delete Product
 
@@ -67,7 +68,8 @@
 
 1. User use API localhost:5000/user/:user_id using method Put.
 2. User fill :user_id parameter with user_id
-3. user updated.
+3. User fill raw body JSON User Name to edit.
+4. User edited.
 
 * Delete user
 
@@ -81,7 +83,7 @@
 
 1. User use API localhost:5000/transaction using method Post.
 2. User fill raw body JSON transaction Name and Premium
-3. transaction created.
+3. Transaction created.
 
 * Get All transactions
 
@@ -98,10 +100,11 @@
 
 1. User use API localhost:5000/transaction/:trans_id using method Put.
 2. User fill :trans_id parameter with trans_id
-3. transaction updated.
+3. User fill raw body JSON Product Id and Quantity Order to edit.
+4. Transaction edited.
 
 * Delete transaction
 
 1. User use API localhost:5000/transaction/:trans_id using method Delete.
 2. User fill :trans_id parameter with trans_id
-3. transaction deleted.
+3. Transaction deleted.
